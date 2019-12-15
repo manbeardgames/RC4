@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RC4Cryptography", "RC4Cryptography\RC4Cryptography.csproj", "{007CA8A5-01E6-4114-B733-29081418635A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RC4Cryptography.Test", "RC4Cryptography.Test\RC4Cryptography.Test.csproj", "{746E382D-4736-4FB5-A428-AC5519EA8FC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{007CA8A5-01E6-4114-B733-29081418635A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{007CA8A5-01E6-4114-B733-29081418635A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{007CA8A5-01E6-4114-B733-29081418635A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{007CA8A5-01E6-4114-B733-29081418635A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{746E382D-4736-4FB5-A428-AC5519EA8FC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{746E382D-4736-4FB5-A428-AC5519EA8FC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{746E382D-4736-4FB5-A428-AC5519EA8FC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{746E382D-4736-4FB5-A428-AC5519EA8FC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9F8CB71-C2CA-4BE9-BD10-4CC36DD32C4B}
+	EndGlobalSection
+EndGlobal
