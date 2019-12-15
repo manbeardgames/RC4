@@ -9,7 +9,7 @@ namespace RC4Cryptography.Example
         static void Main(string[] args)
         {
             //  Let's say we had the phrase "The one ring"
-            string phrase = "This is a secret";
+            string phrase = "The one ring";
 
             //  And we wanted to encrypt it, using the phrase "Keep it secret. Keep it safe."
             string key_phrase = "Keep it secret. Keep it safe.";

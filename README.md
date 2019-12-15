@@ -15,7 +15,7 @@ using RC4Cryptography
 The following is an example of usage as found in the RC4Cryptography.Example project in this repo
 ```cs
 //  Let's say we had the phrase "The one ring"
-string phrase = "This is a secret";
+string phrase = "The one ring";
 
 //  And we wanted to encrypt it, using the phrase "Keep it secret. Keep it safe."
 string key_phrase = "Keep it secret. Keep it safe.";
@@ -51,13 +51,13 @@ Console.WriteLine("Decrypted Phrase:\t{0}", decrypted_phrase);
 
 This would give the following output in the console
 ```
-Phrase:                 This is a secret
-Phrase Bytes:           54-68-69-73-20-69-73-20-61-20-73-65-63-72-65-74
+Phrase:                 The one ring
+Phrase Bytes:           54-68-65-20-6F-6E-65-20-72-69-6E-67
 Key Phrase:             Keep it secret. Keep it safe.
 Key Bytes:              4B-65-65-70-20-69-74-20-73-65-63-72-65-74-2E-20-4B-65-65-70-20-69-74-20-73-61-66-65-2E
-Encryption Result:      EF-24-4A-0A-7B-A6-42-AC-F3-3B-1A-AA-3D-D6-8A-BB
-Decryption Result:      54-68-69-73-20-69-73-20-61-20-73-65-63-72-65-74
-Decrypted Phrase:       This is a secret
+Encryption Result:      EF-24-46-59-34-A1-54-AC-E0-72-07-A8
+Decryption Result:      54-68-65-20-6F-6E-65-20-72-69-6E-67
+Decrypted Phrase:       The one ring
 ```
 
 
