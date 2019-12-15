@@ -1,3 +1,6 @@
+![AppVeyor](https://img.shields.io/appveyor/ci/manbeardgames/RC4)
+![AppVeyor tests](https://img.shields.io/appveyor/tests/manbeardgames/RC4)
+
 # RC4
 An implementation of the RC4 algorithm in C#.  More information on RC4 can be found on Wikipedia at https://en.wikipedia.org/wiki/RC4
 
