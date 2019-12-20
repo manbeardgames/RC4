@@ -71,7 +71,7 @@ namespace RC4Cryptography
             //  the input key is no longer used.  In this phase, for the length of the data, we ...
             i = j = 0;
             byte[] result = new byte[data.Length];
-            for (int iteration = 0; i < data.Length; iteration++)
+            for (int iteration = 0; iteration < data.Length; iteration++)
             {
                 //  PRGA Phase Step 1. Continously increment i from 0 to 255, starting it back 
                 //                     at 0 once we go beyond 255 (this is done with mod (%) division
