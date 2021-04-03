@@ -1,7 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3</TargetFramework>
+    <TargetFrameworks>netcoreapp3;netstandard2.0</TargetFrameworks>
+    <PackageId>RC4Cryptography</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Baltazar Bieniek, Christopher Whitley</Authors>
+    <PackageTags>RC4 Encryption</PackageTags>
+    <Description>Package used for encrypting and decrypting using RC4 algorithm.</Description>
   </PropertyGroup>
 
 </Project>
