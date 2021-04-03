@@ -24,3 +24,4 @@ jobs:
           
           # NuGet package id, used for version detection & defaults to project name
           PACKAGE_NAME: RC4Cryptography
+          NUGET_KEY: ${{secrets.NUGET_API_KEY}}
