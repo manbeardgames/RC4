@@ -17,4 +17,4 @@ jobs:
     - name: Build
       run: dotnet build --no-restore
     - name: Test
-      run: dotnet test --project RC4Cryptography
+      run: dotnet test RC4Cryptography.Test\RC4Cryptography.Test.csproj
